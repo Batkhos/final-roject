@@ -1,0 +1,10 @@
+.Breaknum{
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    padding: 20px;
+    margin-left: 150px;
+    gap: 10px;
+}

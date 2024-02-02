@@ -1,0 +1,102 @@
+.all{
+    display: flex;
+    margin: 10px 170px;
+}
+.part-left{
+    display: flex;
+    gap: 17px;
+}
+.img-list{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+.img-list img{
+    height: 78px;
+}
+.main-img{
+    width: 530px;
+    height: 600px;
+}
+.part-right{
+    display: flex;
+    flex-direction:column;
+    margin: 0 30px;
+}
+.part-right h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.stars i{
+    font-size: 20px;
+}
+.stars p{
+    font-weight: 700;
+    font-size: 12px;
+}
+.prices{
+    font-size: 22px;
+    font-weight: 700;
+}
+.new-price{
+    color: #086908;
+}
+.old-price{
+    font-size: 15px;
+    color: red;
+    text-decoration:line-through;
+}
+.decription{
+    font-size: 15px;
+    font-weight: 500;
+}
+.size h1{
+    padding-top: 25px;
+    font-size: 23px;
+    font-weight: 600;
+}
+.size-kinds{
+    display: flex;
+    gap: 20px;
+}
+.kind{
+    text-align: center;
+    width: 45px;
+    height: 28px;
+    border: 1px solid #ebeebe;
+    background: #fbfbfb;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 2.7px;
+}
+.kind:active{
+    background-color: black;
+    color: white;
+}
+button.buy{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid;
+    background-color: green;
+    font-size: 14px;
+    font-weight: 700;
+}
+button.buy:active{
+    background-color: black;
+    color: white;
+}
+.category{
+    padding-top: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.category span{
+    font-weight: 700;
+}

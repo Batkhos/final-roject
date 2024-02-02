@@ -1,0 +1,17 @@
+.cartitems{
+    padding: 50px;
+    text-align: center;
+    display: grid;
+    gap: 50px;
+    
+}
+.cartitems img{
+    width: 350px;
+}
+.cart p{
+    font-size: 13px;
+    font-weight: 600;
+}
+.cart span{
+    font-weight: 700;
+}
